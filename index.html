@@ -1,38 +1,166 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Workout — Static Page</title>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Marcy MW988/989 - MWF Workout Plan</title>
     <style>
-      body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin: 0; padding: 4rem; background: #f7fafc; color: #1a202c; }
-      .container { max-width: 680px; margin: 0 auto; }
-      header { text-align: center; margin-bottom: 2rem }
-      h1 { margin: 0 0 .25rem 0; font-size: 2rem }
-      p.lead { margin: 0; color: #4a5568 }
-      .card { background: white; padding: 1.25rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-top: 1.5rem }
-      footer { margin-top: 2rem; text-align: center; color: #718096; font-size: .9rem }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <h1>Workout</h1>
-        <p class="lead">A simple static page deployed with GitHub Pages.</p>
-      </header>
+      body {
+          font-family: Arial, Helvetica, sans-serif;
+                margin: 20px;
+                background-color: #f9f9f9;
+                      color: #333;
+      }
+        h1 {
+            text-align: center;
+                  color: #1a5f8c;
+        }
+          h2 {
+              text-align: center;
+                    color: #333;
+          }
+            table {
+                width: 100%;
+                      max-width: 900px;
+                      margin: 20px auto;
+                            border-collapse: collapse;
+                            background-color: white;
+                                  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            }
+              th, td {
+                  padding: 12px 10px;
+                        text-align: left;
+                        border: 1px solid #ccc;
+              }
+                th {
+                    background-color: #1a5f8c;
+                          color: white;
+                }
+                  tr:nth-child(even) {
+                      background-color: #f2f8ff;
+                  }
+                    .total-row {
+                        font-weight: bold;
+                              background-color: #e6f0ff !important;
+                    }
+                      .notes {
+                          max-width: 900px;
+                                margin: 20px auto;
+                                background-color: white;
+                                      padding: 20px;
+                                      border: 1px solid #ccc;
+                                            border-radius: 8px;
+                                            line-height: 1.6;
+                      }
+                        .print-btn {
+                            display: block;
+                                  margin: 20px auto;
+                                  padding: 10px 20px;
+                                        font-size: 16px;
+                                        background-color: #1a5f8c;
+                                              color: white;
+                                              border: none;
+                                                    border-radius: 6px;
+                                                    cursor: pointer;
+                        }
+                          @media print {
+                              body { margin: 0; background: white; }
+                                    .print-btn { display: none; }
+                                    table { box-shadow: none; }
+                          }
+                              </style>
+                              </head>
+                              <body>
+                            <h1>MARCY MW988 / 989</h1>
+                                <h2>MWF Workout Plan — Week 1</h2>
+                              <p style="text-align:center; font-size:18px; color:#1a5f8c;"><strong>3 sets of 8–12 reps per exercise</strong><br>
+                                  Monday • Wednesday • Friday</p>
 
-      <main class="card">
-        <h2>Welcome</h2>
-        <p>This is a placeholder static page. Replace this file with your own HTML, CSS, and assets.</p>
-        <ul>
-          <li>Edit <code>index.html</code> to customize content.</li>
-          <li>Commit and push to the `main` branch to update the live site.</li>
-        </ul>
-      </main>
+                                <table>
+                                  <thead>
+                                        <tr>
+                                            <th>Exercise</th>
+                                                <th>Setting</th>
+                                                    <th>Approx. Weight</th>
+                                                        <th>Est. Calories (3 sets)</th>
+                                                        </tr>
+                                                          </thead>
+                                                            <tbody>
+                                                                  <tr>
+                                                                      <td><strong>Chest Press</strong></td>
+                                                                          <td>5</td>
+                                                                              <td>83 lbs</td>
+                                                                                  <td>25–35</td>
+                                                                                  </tr>
+                                                                                        <tr>
+                                                                                            <td><strong>Lat Pulldown</strong></td>
+                                                                                                <td>5</td>
+                                                                                                    <td>70 lbs</td>
+                                                                                                        <td>20–30</td>
+                                                                                                        </tr>
+                                                                                                              <tr>
+                                                                                                                  <td><strong>Seated Row / Low Pulley Row</strong></td>
+                                                                                                                      <td>5</td>
+                                                                                                                          <td>70 lbs</td>
+                                                                                                                              <td>20–30</td>
+                                                                                                                              </tr>
+                                                                                                                                    <tr>
+                                                                                                                                        <td><strong>Leg Extension</strong></td>
+                                                                                                                                            <td>4</td>
+                                                                                                                                                <td>60 lbs</td>
+                                                                                                                                                    <td>15–25</td>
+                                                                                                                                                    </tr>
+                                                                                                                                                          <tr>
+                                                                                                                                                              <td><strong>Leg Curl</strong></td>
+                                                                                                                                                                  <td>3</td>
+                                                                                                                                                                      <td>50 lbs</td>
+                                                                                                                                                                          <td>15–25</td>
+                                                                                                                                                                          </tr>
+                                                                                                                                                                                <tr>
+                                                                                                                                                                                    <td><strong>Tricep Pushdown</strong></td>
+                                                                                                                                                                                        <td>4</td>
+                                                                                                                                                                                            <td>60 lbs</td>
+                                                                                                                                                                                                <td>15–20</td>
+                                                                                                                                                                                                </tr>
+                                                                                                                                                                                                      <tr>
+                                                                                                                                                                                                          <td><strong>Bicep Curls</strong></td>
+                                                                                                                                                                                                              <td>45 lbs (free)</td>
+                                                                                                                                                                                                                  <td>45 lbs</td>
+                                                                                                                                                                                                                      <td>15–20</td>
+                                                                                                                                                                                                                      </tr>
+                                                                                                                                                                                                                            <tr>
+                                                                                                                                                                                                                                <td><strong>Butterfly (Pec Fly)</strong></td>
+                                                                                                                                                                                                                                    <td>2</td>
+                                                                                                                                                                                                                                        <td>~20 lbs per arm</td>
+                                                                                                                                                                                                                                            <td>15–25</td>
+                                                                                                                                                                                                                                            </tr>
+                                                                                                                                                                                                                                                  <tr class="total-row">
+                                                                                                                                                                                                                                                      <td><strong>TOTAL</strong></td>
+                                                                                                                                                                                                                                                          <td>—</td>
+                                                                                                                                                                                                                                                              <td>—</td>
+                                                                                                                                                                                                                                                                  <td><strong>140–210</strong></td>
+                                                                                                                                                                                                                                                                  </tr>
+                                                                                                                                                                                                                                                                    </tbody>
+                                                                                                                                                                                                                                                                        </table>
 
-      <footer>
-        Published with GitHub Pages.
-      </footer>
-    </div>
-  </body>
-</html>
+                                                                                                                                                                                                                                                                      <div class="notes">
+                                                                                                                                                                                                                                                                        <strong>Warm-up (do before every workout):</strong><br>
+                                                                                                                                                                                                                                                                          5–10 minutes light cardio + 1–2 very light sets (setting 2–3) on each machine exercise.<br><br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                              <strong>Guidelines:</strong><br>
+                                                                                                                                                                                                                                                                                • Tempo: 2–3 seconds up, 3–4 seconds down<br>
+                                                                                                                                                                                                                                                                                  • Rest between sets: 60–90 seconds<br>
+                                                                                                                                                                                                                                                                                    • Session time: ~35–45 minutes<br>
+                                                                                                                                                                                                                                                                                      • Goal this week: Try to reach 12 reps on all 3 sets<br>
+                                                                                                                                                                                                                                                                                        • Log your actual reps after each session<br><br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                            <strong>Progression:</strong> Stay at these exact settings for all three workouts this week.
+                                                                                                                                                                                                                                                                                                </div>
+
+                                                                                                                                                                                                                                                                                              <button class="print-btn" onclick="window.print()">🖨️ Print This Plan</button>
+
+                                                                                                                                                                                                                                                                                                  <p style="text-align:center; color:#666; font-size:14px;">
+                                                                                                                                                                                                                                                                                                    Save this file as <strong>marcy-mwf-workout.html</strong> and open in any browser.
+                                                                                                                                                                                                                                                                                                  </p>
+                                                                                                                                                                                                                                                                                                  </body>
+                                                                                                                                                                                                                                                                                                  </html>
